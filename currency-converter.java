@@ -12,7 +12,7 @@ import com.google.gson.*;
  
 /**
  *
- * @author pakallis
+ * @author fkadeal.com
  */
 class Recv
 {
