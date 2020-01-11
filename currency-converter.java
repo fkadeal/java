@@ -71,18 +71,7 @@ public class Convert extends HttpServlet {
  
   
         /*Open a connection to google and read the result*/
-        try {
-     
-            query = "http://www.google.com/ig/calculator?hl=en&q=" + amount + curFrom + "=?" + curTo;
-            URL url = new URL(query);
-            InputStreamReader stream = new InputStreamReader(url.openStream());
-            BufferedReader in = new BufferedReader(stream);
-            String str = "";
-            String temp = "";
- 
-            while ((temp = in.readLine()) != null) {
-                str = str + temp;
-            }
+        
  
  
             /*Parse the result which is in json format*/
